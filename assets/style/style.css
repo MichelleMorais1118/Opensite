@@ -5,7 +5,7 @@ body {
     
     height: 100vh;
     
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.aen.pr.gov.br%2Fsites%2Fdefault%2Farquivos_restritos%2Ffiles%2Fimagem%2F2023-04%2F20230413_142255.jpg&tbnid=rWKr4v8pWg2ipM&vet=12ahUKEwjImvfs3LKDAxWqNrkGHdCZDbYQMygAegQIARB0..i&imgrefurl=https%3A%2F%2Fwww.aen.pr.gov.br%2FNoticia%2FIAT-faz-vistorias-tecnicas-em-projetos-de-parques-urbanos-da-regiao-Norte-do-Parana&docid=OAXCBs-n4zrXnM&w=3000&h=2000&q=parque&ved=2ahUKEwjImvfs3LKDAxWqNrkGHdCZDbYQMygAegQIARB0");
+    background-image: url("/assets/imagem/padell.jpg");
     background-size: cover;
     background-position: center;
 }
