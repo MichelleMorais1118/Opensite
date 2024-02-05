@@ -31,18 +31,3 @@ header {
     height: 700px;
 }
 
-#tabela {
-    width: 100%;
-    display: grid;
-    margin-left: 20%;
-}
-table {
-    width: 100%;
-  }
-  th, td {
-    border: none;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  

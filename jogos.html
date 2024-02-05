@@ -11,31 +11,64 @@
         <header>
             <h1>OpenSkill</h1>
             <div class="gridtotal">
-                <h3 class="griditem">Histórico</h3>
-                <h3 class="griditem">Jogos</h3>
-                <h3 class="griditem">Clubes</h3>
+                <a  class="griditem" href="/historico.html">Histórico</a>
+                <a  class="griditem" href="/jogos.html">Jogos</a>
+                <a  class="griditem" href="/clubes.html">Clubes</a>
             </div>
         </header>
     </div>
     <div id="main">
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="blocos">
-        <div id="nomes">
+        <div>
             <br>
-        </div>
+            <br>
+            <br>
+            <br>
+            
+            <div id="tabela">
+                <h3 id="titulo">Cadastro dos jogos</h3>
+            <table>
+                <tr>
+                  <th colspan="3">Time 1</th>
+                </tr>
+                <div>
+                   <tr>
+                  <th></th>
+                  <td>Nome Jogador 1:</td>
+                  <td><input type="text" name="jogador1_time1"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Nome Jogador 2:</td>
+                  <td><input type="text" name="jogador2_time1"></td>
+                </tr>
+                </div>
+                <tr>
+                    <th colspan="3">Time 2</th>
+                </tr>
+                <div>
 
-        <div id="placar">
-            <br>
-        </div>
+                <tr>
+                  <th></th>
+                  <td>Nome Jogador 1:</td>
+                  <td><input type="text" name="jogador1_time2"></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Nome Jogador 2:</td>
+                  <td><input type="text" name="jogador2_time2"></td>
+                </tr>
+                </div>
+                <div> 
+                    <tr>
+                        <td colspan="3">Placar do jogo <input type="text" name="placar_time2"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="3"><input type="button" value="Registrar" onclick="registrarTime2()"></th>
+                    </tr>
+                </div>
+              </table>
+            </div>
 
-        <div id="Submit" >
-            <br>
-            <a href="">
-                <button></button>
-            </a>
         </div>
     </div>
     </div>

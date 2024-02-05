@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenSkill</title>
-     <link rel="stylesheet" href="assets\style\style.css">
+    <link rel="stylesheet" href="assets\style\stylec.css">
 </head>
 <body>
     <header>
         <h1 id="logo">OpenSkill</h1>
     </header>
    <div class="card">
-    <div id="texto">
-        <h3>Quer saber qual o seu nível em Padel?</h3>
-        <p>Entre e descubra sua posição.</p>
+    <div id="inicio">
+        <h3 id="log">Entre</h3>
     </div>
     
-    <form id="signin-form">
-        <div class="container">
-            <button id="acesso">Cadastre-se com Google</button>
-            <button id="acesso">Cadastre-se com Facebook</button>
-            <p>Já possui cadastro? Faça log in</p>
-            <a href="/principal.html"><button>Continuar</button></a>
-        </div>
+    <form id="login-form" class="form" onsubmit="return login()">
+        <label for="username">Nome:</label>
+        <input type="text" id="username" name="username"  placeholder="Digite aqui o nome">
+        <br>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite aqui a senha">
+        <br>
+        <a href="/principal.html"><input type="submit" value="Log in" id="go"></a> 
+    </form>
     <a href="#" id="link">Esqueci a senha</a>
-    <p>Já possui cadastro? <a href="/login.html" id="link">Faça log in</a></p>
+    <p>Não possui cadastro? <a href="/cadastro.html" id="link">Faça agora</a></p>
    </div>
     
-    <script src="script.js"></script>
- 
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
